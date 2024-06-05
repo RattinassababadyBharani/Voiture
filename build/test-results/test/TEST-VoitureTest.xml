@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="VoitureTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-06-05T09:03:56" hostname="einfolearning" time="0.018">
+  <properties/>
+  <testcase name="when_getmarque_should_return_same_marque_of_instanciate_car()" classname="VoitureTest" time="0.008"/>
+  <testcase name="when_setprix_should_set_price()" classname="VoitureTest" time="0.0"/>
+  <testcase name="when_setmarque_should_change_marque_of_instanciate_car()" classname="VoitureTest" time="0.0"/>
+  <testcase name="when_getprix_should_return_correct_price()" classname="VoitureTest" time="0.003"/>
+  <testcase name="when_toString_should_return_tostring_of_instanciate_car()" classname="VoitureTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
