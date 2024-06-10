@@ -39,5 +39,7 @@ public class StatistiqueImpl implements Statistique {
         }
 
         return prixTotal - montantRemise;
+    }    public int getVoitureCount() {
+        return voitures.size();
     }
 }
