@@ -1,11 +1,13 @@
+package fr.r402;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class StatistiqueImpl implements Statistique {
+public class StatistiqueVoiture implements Statistique {
 
     private List<Voiture> voitures;
 
-    public StatistiqueImpl() {
+    public StatistiqueVoiture() {
         this.voitures = new ArrayList<>();
     }
 

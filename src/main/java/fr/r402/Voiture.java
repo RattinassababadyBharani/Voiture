@@ -1,3 +1,5 @@
+package fr.r402;
+
 public class Voiture {
 
     private String marque;
@@ -26,6 +28,6 @@ public class Voiture {
 
     @Override
     public String toString() {
-        return "Voiture: " + this.getMarque() + " | Prix: " + this.getPrix();
+        return "fr.r402.Voiture: " + this.getMarque() + " | Prix: " + this.getPrix();
     }
 }
