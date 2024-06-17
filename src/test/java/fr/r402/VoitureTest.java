@@ -1,3 +1,6 @@
+package fr.r402;
+
+import fr.r402.Voiture;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -39,7 +42,7 @@ public class VoitureTest {
     @Test
     void testToStringVoiture(){
         Voiture f = new Voiture("BMW", 100);
-        assertEquals("Voiture: BMW | Prix: 100.0", f.toString());
+        assertEquals("fr.r402.Voiture: BMW | Prix: 100.0", f.toString());
     }
 
 }

@@ -1,13 +1,14 @@
+package fr.r402;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-class StatistiqueImplTest {
+class StatistiqueTest {
 
     @Test
     public void testPrixSansRemise() {
-        StatistiqueImpl statistiques = new StatistiqueImpl();
+        StatistiqueVoiture statistiques = new StatistiqueVoiture();
         statistiques.ajouter(new Voiture("Toyota", 10000));
         statistiques.ajouter(new Voiture("Honda", 20000));
         statistiques.ajouter(new Voiture("BMW", 30000));
@@ -18,7 +19,7 @@ class StatistiqueImplTest {
 
     @Test
     public void testPrixAvecRemise() {
-        StatistiqueImpl statistiques = new StatistiqueImpl();
+        StatistiqueVoiture statistiques = new StatistiqueVoiture();
         for (int i = 0; i < 10; i++) {
             statistiques.ajouter(new Voiture("Toyota", 10000));
         }
